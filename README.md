@@ -7,3 +7,4 @@ test-task-zepuff-shamil
 4) you can use "kubectl describe service" to see output
 5) "kubectl get pods" to see that is service is working or not,should be in READY 1/1
 6) then you can check by typing in browser localhost:15672 to enter the rabbitmq 
+7) in case you want to destroy everything you might to type "kubectl delete -f service.yml"
